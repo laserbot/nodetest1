@@ -1,8 +1,3 @@
-var express = require('express');
-var app = express();
+var app = require("./app");
 
-app.get('/', function(request, response) {
-    response.send("This would be some HTML");
-});
- 
-app.listen(8080);
+app();
