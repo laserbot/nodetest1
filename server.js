@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // server.js
 
 	// modules =================================================
@@ -28,3 +29,8 @@
 	console.log('Magic happens on port ' + port); 			// shoutout to the user
 	exports = module.exports = app; 						// expose app
 
+=======
+var app = require("./app");
+
+app();
+>>>>>>> 4fbc470b5fdd357dbfb44144e72bb683a310fedf
